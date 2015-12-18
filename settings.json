@@ -1,0 +1,21 @@
+{
+	"logfileName": "{DATE}-log",
+	"logfileSuffix": ".log",
+	"levels": [
+		{
+			"level": 1,
+			"name": "debug",
+			"prefix": "{DEBUG}: "
+		},
+		{
+			"level": 2,
+			"name": "info",
+			"prefix": "{INFO}: "
+		},
+		{
+			"level": -1,
+			"name": "fatal",
+			"prefix": "{**IMPORTANT | FATAL**}: "
+		}
+	]
+}
